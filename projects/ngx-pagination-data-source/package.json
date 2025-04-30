@@ -1,6 +1,6 @@
 {
   "name": "@logiccrunch/ngx-pagination-data-source",
-  "version": "18.0.0",
+  "version": "18.0.1",
   "main": "index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/logiccrunch"
