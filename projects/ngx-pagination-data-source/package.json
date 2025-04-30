@@ -1,6 +1,6 @@
 {
   "name": "@logiccrunch/ngx-pagination-data-source",
-  "version": "8.0.0",
+  "version": "18.0.0",
   "main": "index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/logiccrunch"
@@ -26,9 +26,9 @@
     "url": "https://github.com/logiccrunch/ngx-pagination-data-source/issues"
   },
   "peerDependencies": {
-    "@angular/cdk": "^16.2.14",
-    "@angular/common": "^16.2.12",
-    "@angular/core": "^16.2.12"
+    "@angular/cdk": "^18.2.14",
+    "@angular/common": "^18.2.13",
+    "@angular/core": "^18.2.13"
   },
   "dependencies": {
     "tslib": "^2.8.1"
