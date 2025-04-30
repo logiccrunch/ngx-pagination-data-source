@@ -18,7 +18,16 @@
           "configurations": {
             "production": {
               "tsConfig": "projects/ngx-pagination-data-source/tsconfig.lib.prod.json"
-            }
+            },
+            "optimization": {
+              "scripts": true,
+              "styles": {
+                "minify": true,
+                "inlineCritical": false
+              },
+              "fonts": true
+            },
+            "inlineStyleLanguage": "scss"
           }
         },
         "test": {
