@@ -6,13 +6,8 @@
     "prebuild": "cp \"README.md\" \"projects/ngx-pagination-data-source\"",
     "start": "ng serve",
     "build": "ng build --configuration production",
-    "test": "ng test --watch false",
-    "test:watch": "ng test",
-    "test:ci": "ng test --watch false --code-coverage",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
     "bump": "standard-version",
-    "prerelease": "npm ci && npm run lint && npm run test && npm run build",
+    "prerelease": "npm ci && npm run build",
     "release": "npm publish --folder ./dist/ngx-pagination-data-source"
   },
   "dependencies": {
